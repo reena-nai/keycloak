@@ -9,9 +9,10 @@ yamlApplicationConfig:
       client:
         keycloak:
           clientId: kafka-ui
-          clientSecret: tZb3WFqfEVDun2VW6B6fUxrBS8u1FdYO
+          clientSecret: 03e93733-c15a-4424-b0c8-3355b04164e0
           scope: openid
-          issuer-uri: http://10.100.100.100:8080/realms/infra
+          #issuer-uri: http://10.100.100.100:8080/realms/infra
+          issuer-uri: http://3.14.250.53:8080/realms/infra
           user-name-attribute: preferred_username
           client-name: keycloak
           provider: keycloak
